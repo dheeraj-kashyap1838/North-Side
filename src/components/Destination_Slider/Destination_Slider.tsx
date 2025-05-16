@@ -5,7 +5,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { FreeMode, Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import type { Destinations } from "@/type/type";
 import Button from "../Button/Button";
 
