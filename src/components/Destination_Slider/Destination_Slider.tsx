@@ -21,7 +21,8 @@ function Destination_Slider({ data }: SliderProp) {
         loop={true}
         slidesPerView={3}
         navigation={true} // Enable navigation
-        modules={[FreeMode, Pagination, Navigation]}
+        modules={[ Pagination, Navigation]}
+        
         className="mySwiper "
         breakpoints={{
           0: {
@@ -44,7 +45,7 @@ function Destination_Slider({ data }: SliderProp) {
         {data.map((slide, id) => (
           <SwiperSlide className="mx-auto " key={id}>
             <div
-              className="mx-5 w-[352px] my-10 overflow-hidden rounded-4xl"
+              className="mx-auto max-w-[352px] w-full my-10 overflow-hidden rounded-4xl"
               style={{
                 boxShadow: "10px 18px 44px #0000000F",
               }}
