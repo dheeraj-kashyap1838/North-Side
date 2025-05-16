@@ -322,7 +322,7 @@ export const homePageData = {
         },
       },
       {
-        image: "insights_2.png",
+        image: "/insights_2.png",
         heading:
           "Top destinations in the U.S that should be on every traveler's bucket list",
         name: "Tony Frye",
@@ -342,6 +342,20 @@ export const homePageData = {
           "The Ultimate Packing Guide: Packing Essentials for your Stress-Free Travels",
         name: "Eric Knapp",
         time: "3 days ago",
+        like: {
+          icon: "/heart.svg",
+          like_s: 187,
+        },
+        comment: {
+          icon: "/comment.svg",
+          comment_s: 34,
+        },
+      },
+      {
+        image: "/insights_1.png",
+        heading:"10 Must-Visit Destinations for Your Next Adventure to the Northern Europe ",
+        name: "Naya Kline",
+        time: "12 hours ago",
         like: {
           icon: "/heart.svg",
           like_s: 187,
