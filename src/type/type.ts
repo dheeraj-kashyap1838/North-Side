@@ -175,5 +175,5 @@ export interface insight_slider {
 export interface newsLetter{
   homeSection:HomeSection;
   button:Button;
-  placeHolder:string:
+  placeHolder:string;
 }
