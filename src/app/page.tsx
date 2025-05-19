@@ -10,6 +10,8 @@ import Contant_With_Image from "@/components/Contant_With_Image/Contant_With_Ima
 import ConnectionSection from "@/components/PartnersSection/PartnersSection";
 import HappyTravel from "@/components/HappyTravel/HappyTravel";
 import InsightsSection from "@/components/InsightsSection/InsightsSection";
+import NewsLetterSection from "@/components/NewsLetterSection/NewsLetterSection";
+
 
 
 
@@ -27,6 +29,7 @@ export default function Home() {
       <ConnectionSection data={homePageData.ConnectionSection} />
       <HappyTravel data={homePageData.HappyTravel} />
       <InsightsSection data={homePageData.InsightsSection} />
+      <NewsLetterSection data={homePageData.NewsLetterSection} />
       
       
 
