@@ -1,7 +1,7 @@
 
 
 const headerData = {
-  logo: '/LOGO.png',
+  logo: '/FooterLogo.png',
   navItem: [
     {
       name: 'Home',
