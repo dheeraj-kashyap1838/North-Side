@@ -1,6 +1,5 @@
 import React from "react";
 import type { newsLetter } from "@/type/type";
-import HomeSection from "../HomeSection/HomeSection";
 import Button from "../Button/Button";
 
 interface NewsLetterProp {
