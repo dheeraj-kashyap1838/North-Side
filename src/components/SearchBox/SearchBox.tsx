@@ -13,7 +13,7 @@ function SearchBox({props}: SearchProp ) {
   return (
       <>
         <div className="flex  mb-3 gap-2  items-center justify-between md:justify-start text-[#724511]">
-          <h3 className="font-semibold lg:text-lg md:text-xl  text-2xl">{props.heading}</h3>
+          <h3 className="font-semibold text-lg ">{props.heading}</h3>
           <Image width={12} height={6} src={props.icon} alt="/" />
         </div>
         <input
