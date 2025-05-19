@@ -13,8 +13,8 @@ interface HeroProp {
 
 export default function HeroSlider({ data }: HeroProp) {
   return (
-    <section className="px-3">
-      <div className="container max-w-7xl  rounded-2xl overflow-hidden max-h-[100vh]  h-[100vh]  mx-auto">
+    <section className="px-3 relative">
+      <div className="container max-w-7xl  rounded-2xl overflow-hidden max-h-[70vh] h-[70vh] md:max-h-[650px]  md:h-[650px] lg:max-h-[710px]  lg:h-[710px] mx-auto">
         <Swiper
           direction={"vertical"}
           pagination={{
@@ -38,12 +38,12 @@ export default function HeroSlider({ data }: HeroProp) {
                       {slide.offerTime}
                     </div>
                   </div>
-                  <div className="max-w-[726px] px-4 w-full align-middle flex flex-col lg:gap-10 gap-5 lg:mt-30 mt-10 md:mx-[76px] mx-auto  text-white">
+                  <div className="max-w-[726px] px-4 w-full align-middle flex flex-col lg:gap-10 gap-5 lg:mt-30 md:mt-10 mt-2 md:mx-[76px] mx-auto  text-white">
                     <h1 className="md:text-6xl sm:text-4xl text-2xl font-bold">
                       {slide.heading}
                     </h1>
-                    <p className="md:max-w-[604px] w-full   md:text-xl">{slide.qute}</p>
-                    <div className="flex gap-7 sm:flex-row flex-col sm:max-w-[50%] md:mt-8">
+                    <p className="md:max-w-[604px] md:block hidden w-full   md:text-xl">{slide.qute}</p>
+                    <div className="flex gap-7 sm:flex-row flex-col sm:max-w-[55%] md:mt-8">
                       {slide.button.map((elem, id) => {
                         return <Button key={id} props={elem} />;
                       })}

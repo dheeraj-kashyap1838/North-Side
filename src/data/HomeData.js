@@ -107,7 +107,7 @@ export const homePageData = {
   },
   PartnerSection: {
     homeSection: {
-      heading: "",
+      heading: "Get to know our esteemed partners.",
       text: "We’re proud to partner with leading airlines and hotels, ensuring you have a premium experience every step of the way. Whether you're jet-setting across continents or exploring hidden gems closer to home, travel with confidence knowing you're in good hands.",
     },
     partnersLogo: [
@@ -370,16 +370,14 @@ export const homePageData = {
     ],
   },
   NewsLetterSection: {
-    homeSection: {
-      heading: "Stay in the Loop: Subscribe to Our Newsletter",
-      text: "Join our community of travelers and never miss out on exclusive deals, travel tips, and insider insights. Subscribe to our newsletter today!",
-    },
+    heading: '<h1 class="font-semibold md:text-5xl text-3xl">Stay in the Loop:<br> Subscribe to Our Newsletter</h1><p className="mt-[26px] mb-[52px] max-w-[768px] mx-auto text-[16px] font-[500px]"></p>',
+    text: "Join our community of travelers and never miss out on exclusive deals, travel tips, and insider insights. Subscribe to our newsletter today!",
     button: {
       name: "Subscribe Now!",
       path: "/",
       color: "#FEEA39",
       txtColor: "#724511",
     },
-    placeHolder: "Enter your e-mail address ..."
+    placeHolder: "Enter your e-mail address ...",
   },
 };

@@ -11,11 +11,11 @@ interface AboutProp {
 
 function AboutSection({ data }: AboutProp) {
   return (
-    <section className="md:my-24 my-10 px-3">
+    <section id="about" className="md:my-24 my-10 px-3">
       <div className="container max-w-7xl mx-auto ">
         <HomeSection data={data.homeSection} />
         <div className="relative">
-          <div className="max-w-[1165px] mx-auto h-[303px] relative mt-[205px] rounded-bl-4xl over w-full bg-[#FEFDE8] ">
+          <div className="max-w-[1165px] mx-auto h-[303px] relative md:mt-[205px] mt-[100px] rounded-bl-4xl over w-full bg-[#FEFDE8] ">
             <div className="sm:w-[328px] w-[300px]  h-[400px] sm:h-[439px] bottom-0  left-0 overflow-hidden rounded-bl-4xl absolute">
               <Image width={328} height={439}
                 className=" top-[49px] left-[-52px] absolute rounded-bl-4xl"

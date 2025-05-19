@@ -173,7 +173,8 @@ export interface insight_slider {
 }
 
 export interface newsLetter{
-  homeSection:HomeSection;
+  heading:string;
+  text:string;
   button:Button;
   placeHolder:string;
 }

@@ -17,7 +17,7 @@ interface InsightsProp {
 
 function InsightsSection({ data }: InsightsProp) {
   return (
-    <section className="md:my-24 my-10 bg-[#FEFDE8] px-3 pt-[72px] pb-[96px] ">
+    <section id="blog" className="md:my-24 my-10 bg-[#FEFDE8] px-3 pt-[72px] pb-[96px] ">
       <div className="container max-w-7xl mx-auto">
         <HomeSection data={data.homeSection} />
         <Swiper

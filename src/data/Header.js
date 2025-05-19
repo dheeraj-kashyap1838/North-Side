@@ -1,7 +1,7 @@
 
 
 const headerData = {
-  logo: '/LOGO.png',
+  logo: '/FooterLogo.png',
   navItem: [
     {
       name: 'Home',
@@ -9,19 +9,19 @@ const headerData = {
     },
     {
       name: 'Services',
-      path: '/services'
+      path: '#services'
     },
     {
       name: 'About us',
-      path: '/about'
+      path: '#about'
     },
     {
       name: 'Blog',
-      path: '/blog'
+      path: '#blog'
     },
     {
       name: 'Contact',
-      path: '/contact'
+      path: '#contact'
     },
   ],
   button: {

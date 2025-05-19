@@ -13,7 +13,7 @@ function TripSection({ data }: TripProp) {
       <div className="container max-w-7xl mx-auto">
         <div className="container justify-center items-center mx-auto max-w-7xl flex md:flex-row flex-col">
           <div className="md:basis-1/2 basis-1/1">
-            <h2 className="font-semibold text-5xl">{data.heading}</h2>
+            <h2 className="sm:font-semibold sm:text-5xl font-bold text-3xl">{data.heading}</h2>
             <div
               className="flex my-7 max-w-[500px] w-full flex-col gap-4"
               dangerouslySetInnerHTML={{ __html: data.texts }}

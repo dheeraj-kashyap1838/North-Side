@@ -8,7 +8,7 @@ interface ContantProp {
 
 function Contant_With_Image({ data }: ContantProp) {
   return (
-    <section className="md:my-24 my-10 px-3 py-[72px] bg-[#FEFDE8]">
+    <section id="services" className="md:my-24 my-10 px-3 py-[72px] bg-[#FEFDE8]">
       <div className="container items-end justify-center max-w-7xl mx-auto flex md:flex-row flex-col">
         <div className="basis-1/2">
           <h3 className="font-semibold max-w-[457px] w-full text-[40px]">{data.heading}</h3>
