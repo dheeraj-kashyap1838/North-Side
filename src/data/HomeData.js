@@ -260,8 +260,8 @@ export const homePageData = {
     },
     partnersLogo: [
       { logo: "/Emirates.svg", path: "/" },
-      { logo: "/qatar.svg", path: "/" },
-      { logo: "/british.svg", path: "/" },
+      { logo: "/Qatar.svg", path: "/" },
+      { logo: "/British.svg", path: "/" },
       { logo: "/turkish.svg", path: "/" },
       { logo: "/canada.svg", path: "/" },
       { logo: "/southwest.svg", path: "/" },
