@@ -11,7 +11,7 @@ interface AboutProp {
 
 function AboutSection({ data }: AboutProp) {
   return (
-    <section className="md:my-24 my-10 px-3">
+    <section id="about" className="md:my-24 my-10 px-3">
       <div className="container max-w-7xl mx-auto ">
         <HomeSection data={data.homeSection} />
         <div className="relative">

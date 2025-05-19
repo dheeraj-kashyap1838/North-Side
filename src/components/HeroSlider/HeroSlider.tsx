@@ -13,7 +13,7 @@ interface HeroProp {
 
 export default function HeroSlider({ data }: HeroProp) {
   return (
-    <section className="px-3">
+    <section className="px-3 relative">
       <div className="container max-w-7xl  rounded-2xl overflow-hidden max-h-[70vh] h-[70vh] md:max-h-[650px]  md:h-[650px] lg:max-h-[710px]  lg:h-[710px] mx-auto">
         <Swiper
           direction={"vertical"}

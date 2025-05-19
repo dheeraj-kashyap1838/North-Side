@@ -8,7 +8,7 @@ interface NewsLetterProp {
 
 function NewsLetterSection({ data }: NewsLetterProp) {
   return (
-    <section className="md:my-24 my-10 px-3 pt-[72px] pb-[96px]  ">
+    <section id="contact" className="md:my-24 my-10 px-3 pt-[72px] pb-[96px]  ">
       <div className="max-w-[750px] flex flex-col gap-10 w-full px-5 text-center mx-auto" dangerouslySetInnerHTML={{__html:data.heading}}>
         
         
