@@ -23,10 +23,10 @@ function BookingSection({ data }: BookingProp) {
           className="bg-white px-8 w-[100%] md:rounded-tr-2xl  md:rounded-b-2xl rounded-none"
           style={{ boxShadow: "-8px 14px 36px #0000000F" }}
         >
-          <div className=" w-[100%] sm:items-end items-center justify-center gap-2 flex flex-wrap sm:flex-row flex-col mx-a ">
+          <div className=" w-[100%] sm:items-end items-center justify-center gap-2 flex flex-wrap ">
             {data.searchBox.map((elem, id) => {
               return (
-                <div key={id} className="md:py-8 py-3 basis-1/6">
+                <div key={id} className="md:py-8 py-3 lg:basis-1/6 md:basis-1/4  w-full">
                   <SearchBox  props={elem} />
                 </div>
               );
