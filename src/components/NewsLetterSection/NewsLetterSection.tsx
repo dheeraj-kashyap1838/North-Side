@@ -1,0 +1,31 @@
+import React from "react";
+import type { newsLetter } from "@/type/type";
+import HomeSection from "../HomeSection/HomeSection";
+import Button from "../Button/Button";
+
+interface NewsLetterProp {
+  data: newsLetter;
+}
+
+function NewsLetterSection({ data }: NewsLetterProp) {
+  return (
+    <section className="md:my-24 my-10 px-3 pt-[72px] pb-[96px]  " >
+      <HomeSection data={data.homeSection} />
+      <form
+        action="get"
+        className="flex flex-col sm:flex-row gap-5 items-center relative max-w-[832px]  mx-auto w-full"
+      >
+        <input
+          type="text"
+          placeholder={data.placeHolder}
+          className="px-[22px] py-[14px] rounded-2xl  w-full  bg-[#F6F6F6]"
+        />
+        <div className="max-w-[207px] max-h-[100px] h-full w-full sm:absolute right-0 bottom-0" id="newsletter">
+          <Button props={data.button} />
+        </div>
+      </form>
+    </section>
+  );
+}
+
+export default NewsLetterSection;

@@ -303,13 +303,14 @@ export const homePageData = {
   },
   InsightsSection: {
     homeSection: {
-      heading: "Hear from Our Happy Travelers",
-      text: "Our travelers’ tales are the true measure of our service. Read through heartfelt stories and rave reviews from our community members who’ve turned their travel dreams into reality with NorthSide.",
+      heading: "Insights for the Inquisitive Traveler",
+      text: "Our blog is a trove of travel wisdom, filled with tips, news, and stories to inspire your next expedition. Whether you’re a seasoned traveler or embarking on your first adventure, our insights will pave the way to a richer travel experience.",
     },
     insight_slider: [
       {
         image: "/insights_1.png",
-        heading:"10 Must-Visit Destinations for Your Next Adventure to the Northern Europe ",
+        heading:
+          "10 Must-Visit Destinations for Your Next Adventure to the Northern Europe ",
         name: "Naya Kline",
         time: "12 hours ago",
         like: {
@@ -353,7 +354,8 @@ export const homePageData = {
       },
       {
         image: "/insights_1.png",
-        heading:"10 Must-Visit Destinations for Your Next Adventure to the Northern Europe ",
+        heading:
+          "10 Must-Visit Destinations for Your Next Adventure to the Northern Europe ",
         name: "Naya Kline",
         time: "12 hours ago",
         like: {
@@ -366,5 +368,18 @@ export const homePageData = {
         },
       },
     ],
+  },
+  NewsLetterSection: {
+    homeSection: {
+      heading: "Stay in the Loop: Subscribe to Our Newsletter",
+      text: "Join our community of travelers and never miss out on exclusive deals, travel tips, and insider insights. Subscribe to our newsletter today!",
+    },
+    button: {
+      name: "Subscribe Now!",
+      path: "/",
+      color: "#FEEA39",
+      txtColor: "#724511",
+    },
+    placeHolder: "Enter your e-mail address ..."
   },
 };

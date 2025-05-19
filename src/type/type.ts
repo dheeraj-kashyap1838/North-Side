@@ -171,3 +171,9 @@ export interface insight_slider {
     comment_s: number;
   };
 }
+
+export interface newsLetter{
+  homeSection:HomeSection;
+  button:Button;
+  placeHolder:string;
+}

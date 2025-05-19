@@ -11,7 +11,7 @@ interface ButtonProps {
 
 function Button({ props }: ButtonProps) {
   return (
-    <Link href={props.path} className="max-w-[184px] w-full mx-auto">
+    <Link href={props.path} className="max-w-[184px] w-full h-full mx-auto">
       <button
         className="cursor-pointer font-semibold sm:py-3.5 py-2.5 sm:px-8 px-3.5 w-full rounded-xl flex justify-center items-center gap-1"
         style={{ color: props.txtColor, backgroundColor: props.color }}
