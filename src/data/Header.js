@@ -5,7 +5,7 @@ const headerData = {
   navItem: [
     {
       name: 'Home',
-      path: '/'
+      path: '#home'
     },
     {
       name: 'Services',
