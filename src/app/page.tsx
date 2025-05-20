@@ -17,7 +17,7 @@ import NewsLetterSection from "@/components/NewsLetterSection/NewsLetterSection"
 
 export default function Home() {
   return (
-    <>
+    <div id="home">
       <HeroSlider data={homePageData.heroSlider} />
       <BookingSection data={homePageData.BookingSection} />
       <PartnersSection data={homePageData.PartnerSection} />
@@ -34,6 +34,6 @@ export default function Home() {
       
 
 
-    </>
+    </div>
   );
 }
