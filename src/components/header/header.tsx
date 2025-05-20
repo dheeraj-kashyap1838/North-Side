@@ -13,7 +13,6 @@ interface HeaderProp {
 
 function Header({ props }: HeaderProp) {
   const [openMenu, setOpenMenu] = useState(false);
-  
 
   return (
     <header className=" px-3 py-3 md:py-0 z-30 sticky  max-h-[200px] bg-white top-0 left-0 w-full">
@@ -36,16 +35,21 @@ function Header({ props }: HeaderProp) {
           <div
             className={`${
               openMenu ? "flex" : "hidden"
-            } md:flex md:flex-row md:static absolute h-[100vh] md:h-auto  w-full z-[-1] bg-white  left-0 md:py-3 py-5 
+            } md:flex md:flex-row md:static absolute h-[100vh] md:h-auto  w-full md:z-auto z-[-1] bg-white  left-0 md:py-3 py-5 
             top-[45px]  md:gap-0 gap-6 flex-col md:basis-5/6 basis-6/6  items-center`}
           >
             <ul className="flex md:flex-row flex-col basis-3/4  justify-center w-full font-semibold  lg:gap-10 gap-5 flex-wrap">
               {props.navItem.map((item, id) => {
                 return (
-                  <li key={id} className="text-center" onClick={()=>{
-                    setOpenMenu(false)
-                  }} >
-                    <Link href={item.path}>{item.name}</Link>
+                  <li key={id} className="text-center">
+                    <Link
+                      href={item.path}
+                      onClick={() => {
+                        setOpenMenu(false);
+                      }}
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 );
               })}
