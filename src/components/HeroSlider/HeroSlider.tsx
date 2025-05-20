@@ -38,7 +38,7 @@ export default function HeroSlider({ data }: HeroProp) {
                       {slide.offerTime}
                     </div>
                   </div>
-                  <div className="max-w-[726px] px-4 w-full align-middle flex flex-col lg:gap-10 gap-5 lg:mt-30 md:mt-10 mt-2 md:mx-[76px] mx-auto  text-white">
+                  <div className="max-w-[726px] px-4 md:px-0 w-full align-middle flex flex-col lg:gap-10 gap-5 lg:mt-30 md:mt-10 mt-2 md:mx-[76px] mx-auto  text-white">
                     <h1 className="md:text-6xl sm:text-4xl text-2xl font-bold">
                       {slide.heading}
                     </h1>
